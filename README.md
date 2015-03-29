@@ -1,6 +1,9 @@
  MeterBox
 =================
 
+[![NPM version][npm-badge]](http://badge.fury.io/js/meterbox)
+[npm-badge]: https://badge.fury.io/js/meterbox.png
+
 [multimeter](https://github.com/substack/node-multimeter) wrapper
 
 ![](./meterbox.gif)

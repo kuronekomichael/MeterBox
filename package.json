@@ -1,8 +1,8 @@
 {
-  "name": "MeterBox",
+  "name": "meterbox",
   "version": "0.1.0",
   "description": "multimeter wrapper",
-  "main": "index.js",
+  "main": "lib/meterbox.js",
   "scripts": {
     "test": "mocha"
   },
