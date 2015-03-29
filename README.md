@@ -16,6 +16,9 @@ npm install meterbox
 
 ## Feature
 
+[multimeter](https://github.com/substack/node-multimeter)から拡張した機能として、同時実行数を設定できるようにしてます。  
+例えば`{multijob:3}`とすると、３つのジョブを並行で実行して、終わり次第に次のジョブを実行します。
+
 - Limited concurrent execution (default only single job)
 - Unlimited job (`emit.setMaxListeners` as you think proper)
 
