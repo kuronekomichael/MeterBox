@@ -1,0 +1,33 @@
+{
+  "name": "MeterBox",
+  "version": "0.1.0",
+  "description": "multimeter wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kuronekomichael/MeterBox"
+  },
+  "keywords": [
+    "progress",
+    "bar",
+    "status",
+    "meter",
+    "terminal",
+    "console.ansi",
+    "multimeter",
+    "charm"
+  ],
+  "author": "kuronekomichael",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kuronekomichael/MeterBox/issues"
+  },
+  "homepage": "https://github.com/kuronekomichael/MeterBox",
+  "dependencies": {
+    "eastasianwidth": "^0.1.0",
+    "multimeter": "^0.1.1"
+  }
+}

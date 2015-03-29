@@ -1,29 +1,8 @@
- MeterBox
-=================
-
-[multimeter](https://github.com/substack/node-multimeter) wrapper
-
-![](./meterbox.gif)
-
-## Install
-
-```
-npm install meterbox
-```
-
-## Feature
-
-- Limited concurrent execution (default only single job)
-- Unlimited job (`emit.setMaxListeners` as you think proper)
-
-## Example
-
-```
-var MeterBox = require('meterbox');
+var MeterBox = require('./lib/meterbox');
 
 var meterBox = new MeterBox({
     name: 'my progress',
-    multijob: 3, //同時実行数
+    multijob: 3,//同時実行数
     barWidth: 70
 });
 
@@ -61,4 +40,3 @@ uploads.forEach(function(data) {
 });
 
 meterBox.run();
-```
